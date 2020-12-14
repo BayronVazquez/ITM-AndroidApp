@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Politicas">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/TextView_Mision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Mision" />
+
+    <TextView
+        android:id="@+id/TextView_MisionDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MisionDescripcion" />
+
+    <TextView
+        android:id="@+id/TextView_Vision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Vision" />
+
+    <TextView
+        android:id="@+id/TextView_VisionDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/VisionDescripcion" />
+
+    <TextView
+        android:id="@+id/TextView_Valores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Valores" />
+
+    <TextView
+        android:id="@+id/TextView_ValoresDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ValoresDescripcion" />
+</LinearLayout>
