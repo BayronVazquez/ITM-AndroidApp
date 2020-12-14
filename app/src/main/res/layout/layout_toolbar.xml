@@ -2,22 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#191995"
+    android:background="#2B3AAD"
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:padding="12dp">
 
     <ImageView
-        android:id="@+id/ImageView_Logo"
+        android:id="@+id/Toolbar_Logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="ClickMenu"
-        android:src="@drawable/ic_baseline_menu_24" />
+        android:src="@drawable/ic_menu_24dp" />
 
     <TextView
-        android:id="@+id/TextView_Title"
+        android:id="@+id/Toolbar_Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="22sp" />
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Toolbar_OverflowIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_down_white_24" />
 </LinearLayout>

@@ -1,11 +1,39 @@
 <resources>
     <string name="app_name">Gorilla APP</string>
 
+    <string name="Becas">Becas</string>
+    <string name="Calendario">Calendario</string>
+    <string name="Informacion">Información</string>
+    <string name="Infotec">Info Tec.</string>
+    <string name="Contacto">Contacto</string>
+    <string name="Convocatoria">Convocatoria</string>
+    <string name="ExtraEscolares">ExtraEscolares</string>
+    <string name="Ubicacion">Ubicación</string>
     <string name="Politicas">Politicas</string>
+    <string name="Croquis">Croquis</string>
+
+    <!-- Activity Main -->
+    <string name="Bienvenido">¡Bienvenido!</string>
+    <string name="MensajeBienvenida">A partir de ahora, tu vida será mucho más fácil.</string>
+    <string name="ITM">Instituto Tecnológico de Matamoros</string>
+
+    <!-- Activity Ubicacion -->
+    <string name="DireccionITM">Instituto Tecnológico de Matamoros Carr. Lauro Villar K.M. 6.5 8688140952 y 8688140953 C.P. 87490 H. Matamoros, México.</string>
+
+    <!-- Activity Politicas-->
     <string name="Mision">Misión</string>
-    <string name="MisionDescripcion">Impulsar el desarrollo científico y tecnológico ejerciendo actividades de docencia, investigación, extensión y vinculación en la formación de profesionales con competencias y valores que aseguren el liderazgo, la equidad y la sustentabilidad ambiental.</string>
+    <string name="DescripcionMision">Impulsar el desarrollo científico y tecnológico ejerciendo actividades de docencia, investigación, extensión y vinculación en la formación de profesionales con competencias y valores que aseguren el liderazgo, la equidad y la sustentabilidad ambiental.</string>
     <string name="Vision">Visión</string>
-    <string name="VisionDescripcion">Consolidarse como una institución de Educación Superior con calidad en el servicio, como soporte del desarrollo sostenido, sustentable y equitativo en un entorno global.</string>
+    <string name="DescripcionVision">Consolidarse como una institución de Educación Superior con calidad en el servicio, como soporte del desarrollo sostenido, sustentable y equitativo en un entorno global.</string>
     <string name="Valores">Valores</string>
-    <string name="ValoresDescripcion">Los Principales valores que la comunidad tecnológica ha establecido para guiar la vida institucional, son: el ser humano, espíritu de servicio, liderazgo, trabajo en equipo, calidad y el alto desempeño; actuando con respeto, responsabilidad, ética, orden, perseverancia y cuidado del medio ambiente.</string>
+    <string name="DescripcionValores">Los Principales valores que la comunidad tecnológica ha establecido para guiar la vida institucional, son: el ser humano, espíritu de servicio, liderazgo, trabajo en equipo, calidad y el alto desempeño; actuando con respeto, responsabilidad, ética, orden, perseverancia y cuidado del medio ambiente.</string>
+
+    <!-- Activity Contacto -->
+    <string name="NumeroDeTelefono">Número de Teléfono</string>
+    <string name="TelefonoDeContacto">785-101-2803</string>
+    <string name="EnviarWhats">Enviar Whats App</string>
+    <string name="DescripcionContacto">Si tienes algún problema con el funcionamiento de la plataforma, contactar en horario de 13:00 a 16:00 horas</string>
+
+    <string name="RedesSociales">Redes Sociales</string>
+    <string name="Warning">Esta Seccion aun Esta en Desarrollo</string>
 </resources>

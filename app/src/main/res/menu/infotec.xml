@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Item_Politicas"
+        android:title="@string/Politicas" />
+    <item
+        android:id="@+id/Item_Ubicacion"
+        android:title="@string/Ubicacion" />
+    <item
+        android:id="@+id/Item_RedesSociales"
+        android:title="@string/RedesSociales" />
+</menu>

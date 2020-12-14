@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!-- Banner -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2B3AAD"
+        android:gravity="center_vertical"
+        android:onClick="ClickHome"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name" />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <!-- Menu Item Home-->
+    <LinearLayout
+        style="@style/drawer_menu"
+        android:onClick="ClickHome">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:text="Home" />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:src="@drawable/ic_arrow_down_white_24" />
+    </LinearLayout>
+
+    <!-- Menu Item InfoTec -->
+    <LinearLayout
+        style="@style/drawer_menu"
+        android:onClick="ClickInfoTec">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:text="Info Tec." />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:src="@drawable/ic_arrow_down_white_24" />
+    </LinearLayout>
+
+    <!-- Menu Item Croquis -->
+    <LinearLayout
+        style="@style/drawer_menu"
+        android:onClick="ClickCroquis">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:text="@string/Croquis" />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:src="@drawable/ic_arrow_down_white_24" />
+    </LinearLayout>
+
+    <!-- Menu Item Calendario -->
+    <LinearLayout
+        style="@style/drawer_menu"
+        android:onClick="ClickCalendario">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:text="Calendario Escolar" />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:src="@drawable/ic_arrow_down_white_24" />
+    </LinearLayout>
+
+    <!-- Menu Item Becas -->
+    <LinearLayout
+        style="@style/drawer_menu"
+        android:onClick="ClickBecas">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:text="Becas" />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:src="@drawable/ic_arrow_down_white_24" />
+    </LinearLayout>
+
+    <!-- Menu Item ExtraEscolares-->
+    <LinearLayout
+        style="@style/drawer_menu"
+        android:onClick="ClickExtraEscolares">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:text="Actividades Extraescolares" />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:src="@drawable/ic_arrow_down_white_24" />
+    </LinearLayout>
+
+    <!-- Menu Item Convocatoria -->
+    <LinearLayout
+        style="@style/drawer_menu"
+        android:onClick="ClickConvocatoria">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:text="Convocatoria" />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:src="@drawable/ic_arrow_down_white_24" />
+    </LinearLayout>
+
+    <!-- Menu Item Salir -->
+    <LinearLayout
+        style="@style/drawer_menu"
+        android:onClick="ClickLogout">
+
+        <TextView
+            style="@style/drawer_menu_text"
+            android:text="Salir" />
+
+        <ImageView
+            style="@style/drawer_menu_item_icon"
+            android:src="@drawable/ic_arrow_down_white_24" />
+    </LinearLayout>
+</LinearLayout>

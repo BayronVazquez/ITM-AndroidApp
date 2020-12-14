@@ -1,53 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".Politicas">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/view_toolbar"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/TextView_Mision"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Mision" />
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/ToolbarPoliticas"
+            style="@style/toolbar"
+            app:title="@string/Politicas"
+            app:titleMarginStart="50sp"
+            app:titleTextColor="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/TextView_MisionDescripcion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/MisionDescripcion" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/TextView_Vision"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Vision" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/TextView_VisionDescripcion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/VisionDescripcion" />
+                <!-- Coloca aqui tus vistas para la pagina principal -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Mision"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/TextView_Valores"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Valores" />
+                <TextView
+                    android:id="@+id/TextView_Mision"
+                    style="@style/parrafo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DescripcionMision" />
 
-    <TextView
-        android:id="@+id/TextView_ValoresDescripcion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/ValoresDescripcion" />
-</LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Vision"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/parrafo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DescripcionVision" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Valores"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/parrafo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DescripcionValores" />
+                <!-- Fin de tus vistas -->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF">
+
+        <include layout="@layout/layout_menu" />
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

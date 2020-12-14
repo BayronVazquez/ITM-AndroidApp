@@ -1,2 +1,2 @@
+rootProject.name='TecNM App'
 include ':app'
-rootProject.name = "ITM"
