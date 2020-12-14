@@ -17,7 +17,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 * El proceso de instalación sera a traves de la playstore una vez que este terminada la aplicacion, por el momento se tiene que hacer de manera manual, para ello descarga la apk que se encuentra en el siguiente directorio:
 
 ```
-/home/pyro/AndroidStudioProjects/ITM-AndroidApp/app/build/outputs/apk/debug
+/ITM-AndroidApp/app/build/outputs/apk/debug
 ```
 
 * Una vez descargada la aplicacion es necesario activivar el modo desarrollador en tu telefono, esto varia dependiendo del modelo que tengas, busca en internet "activar modo desarrollador en android".
